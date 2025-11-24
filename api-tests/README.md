@@ -21,4 +21,4 @@ Automated API testing of the public Vikunja instance
 
 ### Run locally (one command)
 ```bash
-npx newman run "https://raw.githubusercontent.com/SergeiOsipov2099/My-Portfolio/main/api-tests/Creating_Account%20and%20login.postman_collection.json" -e "https://raw.githubusercontent.com/SergeiOsipov2099/My-Portfolio/main/api-tests/Creating_Account%20and%20login.postman_environment.json" --reporters cli,html --reporter-html-export report.html
+npx newman run "https://raw.githubusercontent.com/SergeiOsipov2099/My-Portfolio/main/api-tests/Creating_Account_and_Login_postman_collection.json" -e "https://raw.githubusercontent.com/SergeiOsipov2099/My-Portfolio/main/api-tests/Creating_Account_and_Login_postman_environment.json" --reporters cli,html --reporter-html-export report.html
